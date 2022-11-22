@@ -8,7 +8,7 @@ const Button = (props) => {
       className={styles.button}
       type={props.type || "button"}
       onClick={props.onClick}
-    ></button>
+    >{props.children}</button>
   );
 };
 export default Button;
